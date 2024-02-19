@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./medicare-services.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="medicare-services">
+      <section class="medicare-frame">
+        <div class="navigation-bar5"></div>
+        <div class="sub-frame">
+          <img
+            class="medicare-logo-icon5"
+            loading="eager"
+            alt=""
+            src="./public/medicare-logo5@2x.png"
+            id="medicareLogoImage"
+          />
+
+          <h1 class="medicare5" id="mEDICAREText">MEDICARE</h1>
+        </div>
+        <div class="about-us-frame">
+          <nav class="services-frame1">
+            <div class="about-us4" id="aBOUTUSText">ABOUT US</div>
+            <div class="services4">SERVICES</div>
+            <div class="appointments6" id="aPPOINTMENTSText">APPOINTMENTS</div>
+            <div class="contact-us5" id="cONTACTUSText">CONTACT US</div>
+          </nav>
+        </div>
+      </section>
+      <section class="another-frame">
+        <div class="sub-frame-s-e-r-v-i-c-e-s">
+          <div class="services-text">
+            <h1 class="services5">SERVICES</h1>
+          </div>
+          <div class="parent-frame1">
+            <button class="medical-services1">
+              <div class="why-button" id="whyButton"></div>
+              <div class="medical-services2" id="medicalServicesText">
+                Medical Services
+              </div>
+            </button>
+            <button class="general-services1" id="generalServices">
+              <div class="why-button1"></div>
+              <div class="general-services2">General Services</div>
+            </button>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script>
+      var medicareLogoImage = document.getElementById("medicareLogoImage");
+      if (medicareLogoImage) {
+        medicareLogoImage.addEventListener("click", function (e) {
+          window.location.href = "./medicare-home.html";
+        });
+      }
+      
+      var mEDICAREText = document.getElementById("mEDICAREText");
+      if (mEDICAREText) {
+        mEDICAREText.addEventListener("click", function (e) {
+          window.location.href = "./medicare-home.html";
+        });
+      }
+      
+      var aBOUTUSText = document.getElementById("aBOUTUSText");
+      if (aBOUTUSText) {
+        aBOUTUSText.addEventListener("click", function (e) {
+          window.location.href = "./medicare-about-us.html";
+        });
+      }
+      
+      var aPPOINTMENTSText = document.getElementById("aPPOINTMENTSText");
+      if (aPPOINTMENTSText) {
+        aPPOINTMENTSText.addEventListener("click", function (e) {
+          window.location.href = "./medicare-appointments.html";
+        });
+      }
+      
+      var cONTACTUSText = document.getElementById("cONTACTUSText");
+      if (cONTACTUSText) {
+        cONTACTUSText.addEventListener("click", function (e) {
+          window.location.href = "./medicare-contact-us.html";
+        });
+      }
+      
+      var whyButton = document.getElementById("whyButton");
+      if (whyButton) {
+        whyButton.addEventListener("click", function (e) {
+          window.location.href = "./medicare-medical-services.html";
+        });
+      }
+      
+      var medicalServicesText = document.getElementById("medicalServicesText");
+      if (medicalServicesText) {
+        medicalServicesText.addEventListener("click", function (e) {
+          window.location.href = "./medicare-medical-services.html";
+        });
+      }
+      
+      var generalServices = document.getElementById("generalServices");
+      if (generalServices) {
+        generalServices.addEventListener("click", function (e) {
+          window.location.href = "./medicare-general-services.html";
+        });

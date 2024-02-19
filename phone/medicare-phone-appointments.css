@@ -1,0 +1,384 @@
+.navigation-bar2 {
+  height: 135px;
+  width: 430px;
+  position: relative;
+  background-color: var(--color-darkslategray);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  display: none;
+}
+.medicare-logo-icon2 {
+  width: 28px;
+  height: 28px;
+  position: relative;
+  object-fit: cover;
+  cursor: pointer;
+  z-index: 1;
+}
+.medicare-logo-frame {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-5xs) 0 0;
+}
+.medicare2 {
+  margin: 0;
+  align-self: stretch;
+  height: 39px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  z-index: 1;
+}
+.appointments-frame1 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-7xs) 0 0;
+  font-size: var(--font-size-sm);
+}
+.about-us2 {
+  align-self: stretch;
+  position: relative;
+  line-height: 11px;
+  display: inline-block;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  min-height: 16px;
+  cursor: pointer;
+  z-index: 2;
+}
+.frame-a {
+  width: 59px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) var(--padding-4xs) 0 0;
+  box-sizing: border-box;
+}
+.services2 {
+  align-self: stretch;
+  position: relative;
+  line-height: 11px;
+  display: inline-block;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  min-height: 16px;
+  cursor: pointer;
+  z-index: 2;
+}
+.frame-a1 {
+  width: 56px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) var(--padding-4xs) 0 0;
+  box-sizing: border-box;
+}
+.appointments3 {
+  align-self: stretch;
+  position: relative;
+  line-height: 11px;
+  display: inline-block;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  min-height: 17px;
+  z-index: 2;
+}
+.first-name-frame {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) var(--padding-6xs) 0 0;
+}
+.contact-us3 {
+  align-self: stretch;
+  position: relative;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  z-index: 1;
+}
+.time-frame {
+  width: 64px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) 0 0;
+  box-sizing: border-box;
+}
+.about-us-services-frame,
+.appointments4 {
+  font-family: var(--font-montserrat);
+  text-align: left;
+}
+.about-us-services-frame {
+  align-self: stretch;
+  background-color: var(--color-darkslategray);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-35xl) var(--padding-base) var(--padding-17xl)
+    var(--padding-3xl);
+  font-size: var(--font-size-3xs);
+  color: var(--color-black);
+}
+.appointments4 {
+  margin: 0;
+  position: relative;
+  font-size: var(--font-size-13xl);
+  font-weight: 400;
+  color: var(--color-darkslategray);
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.first-name-sub-frame {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) var(--padding-5xs) 0;
+}
+.first-name {
+  width: 127px;
+  position: relative;
+  font-size: var(--font-size-base);
+  font-family: var(--font-montserrat);
+  color: var(--color-darkslategray);
+  text-align: left;
+  display: inline-block;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  box-sizing: border-box;
+  padding-right: var(--padding-xl);
+}
+.schedule-appointment-btn-frame-child {
+  border: 1px solid var(--color-darkslategray);
+  outline: 0;
+  background-color: transparent;
+  align-self: stretch;
+  height: 45px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-width: 94px;
+}
+.schedule-appointment-btn-frame {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 19px 0;
+}
+.email {
+  width: 75px;
+  position: relative;
+  font-size: var(--font-size-base);
+  font-family: var(--font-montserrat);
+  color: var(--color-darkslategray);
+  text-align: left;
+  display: inline-block;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  box-sizing: border-box;
+  padding-right: var(--padding-xl);
+}
+.schedule-appointment-btn-frame-item {
+  border: 1px solid var(--color-darkslategray);
+  outline: 0;
+  background-color: transparent;
+  align-self: stretch;
+  height: 45px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-width: 94px;
+}
+.appointment-text-frame,
+.schedule-appointment-btn-frame1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.schedule-appointment-btn-frame1 {
+  align-self: stretch;
+  gap: 16px 0;
+}
+.appointment-text-frame {
+  flex: 1;
+  gap: 46px 0;
+}
+.email-field,
+.last-name {
+  position: relative;
+  box-sizing: border-box;
+}
+.last-name {
+  width: 128px;
+  font-size: var(--font-size-base);
+  font-family: var(--font-montserrat);
+  color: var(--color-darkslategray);
+  text-align: left;
+  display: inline-block;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  padding-right: var(--padding-xl);
+}
+.email-field {
+  border: 1px solid var(--color-darkslategray);
+  outline: 0;
+  background-color: transparent;
+  align-self: stretch;
+  height: 45px;
+  border-radius: var(--br-3xs);
+  overflow: hidden;
+  flex-shrink: 0;
+  min-width: 94px;
+}
+.first-name-field,
+.last-name-field {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.first-name-field {
+  flex: 1;
+  flex-direction: column;
+  gap: 19px 0;
+}
+.last-name-field {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-7xs);
+}
+.time {
+  margin: 0;
+  height: 53px;
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-base);
+  font-weight: 400;
+  font-family: var(--font-montserrat);
+  color: var(--color-darkslategray);
+  text-align: left;
+  display: inline-block;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.appointment-frame {
+  border: 1px solid var(--color-darkslategray);
+  outline: 0;
+  background-color: transparent;
+  height: 46.7px;
+  width: 156px;
+  position: absolute;
+  margin: 0 !important;
+  right: -75px;
+  bottom: -28px;
+  border-radius: var(--br-3xs);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.time-label {
+  width: 81px;
+  flex-direction: row;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  position: relative;
+}
+.appointment-form,
+.last-name-frame,
+.time-label {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.appointment-form {
+  flex: 1;
+  flex-direction: column;
+  gap: 46px 0;
+}
+.last-name-frame {
+  align-self: stretch;
+  flex-direction: row;
+  gap: 0 13px;
+}
+.schedule-appointment-btn-item {
+  height: 53px;
+  width: 306px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-darkslategray);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  display: none;
+}
+.schedule-appointment {
+  position: relative;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-montserrat);
+  color: var(--color-honeydew);
+  text-align: left;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  z-index: 1;
+}
+.schedule-appointment-btn1 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-base) 11px var(--padding-mini) 34px;
+  background-color: var(--color-darkslategray);
+  flex: 1;
+  border-radius: var(--br-3xs);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+.appointments-section,
+.appointments-sub-frame {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.appointments-section {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-3xs) 0 var(--padding-mini);
+}
+.appointments-sub-frame {
+  margin: 0;
+  flex: 1;
+  flex-direction: column;
+  gap: 87px 0;
+}
+.btn-frame,
+.medicare-phone-appointments {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.btn-frame {
+  width: 344px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-smi) 0 0;
+}
+.medicare-phone-appointments {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-honeydew);
+  overflow: hidden;
+  flex-direction: column;

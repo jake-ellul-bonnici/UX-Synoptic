@@ -1,0 +1,257 @@
+.navigation-bar8 {
+    height: 234px;
+    width: 1440px;
+    position: relative;
+    background-color: var(--color-darkslategray);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    display: none;
+    max-width: 100%;
+  }
+  .medicare-logo-icon8,
+  .medicare8 {
+    position: relative;
+    cursor: pointer;
+    z-index: 1;
+  }
+  .medicare-logo-icon8 {
+    height: 57px;
+    width: 57px;
+    object-fit: cover;
+  }
+  .medicare8 {
+    margin: 0;
+    font-size: inherit;
+    font-weight: 400;
+    font-family: inherit;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .logo-frame1 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-start;
+    gap: 0 16px;
+    max-width: 100%;
+  }
+  .about-us8 {
+    white-space: nowrap;
+  }
+  .about-us8,
+  .appointments9,
+  .contact-us8,
+  .services8 {
+    position: relative;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    z-index: 1;
+  }
+  .contact-us8 {
+    white-space: nowrap;
+  }
+  .contact-us-frame1 {
+    margin: 0;
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 0 36px;
+    text-align: left;
+    font-size: var(--font-size-xl);
+    color: var(--color-black);
+    font-family: var(--font-montserrat);
+  }
+  .about-us-frame1,
+  .appointment-frame {
+    display: flex;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .about-us-frame1 {
+    height: 29px;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: var(--padding-7xs) 0 0;
+  }
+  .appointment-frame {
+    align-self: stretch;
+    background-color: var(--color-darkslategray);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    flex-direction: row;
+    align-items: center;
+    padding: var(--padding-67xl) var(--padding-115xl) var(--padding-72xl);
+    gap: 0 154px;
+    text-align: left;
+    font-size: var(--font-size-29xl);
+    color: var(--color-black);
+    font-family: var(--font-montserrat);
+  }
+  .appointments10,
+  .your-appointment-has {
+    position: relative;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .appointments10 {
+    margin: 0;
+    font-size: inherit;
+    font-weight: 400;
+    font-family: inherit;
+  }
+  .your-appointment-has {
+    align-self: stretch;
+    font-size: var(--font-size-5xl);
+  }
+  .thank-you-text {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 31px 0;
+  }
+  .schedule-appointment-btn-inner {
+    height: 53px;
+    width: 535px;
+    position: relative;
+    border-radius: var(--br-3xs);
+    background-color: var(--color-darkslategray);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    display: none;
+    max-width: 100%;
+  }
+  .return-to-home {
+    position: relative;
+    font-size: var(--font-size-5xl);
+    font-family: var(--font-montserrat);
+    color: var(--color-honeydew);
+    text-align: left;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    z-index: 1;
+  }
+  .schedule-appointment-btn2 {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-sm) 12px var(--padding-smi);
+    background-color: var(--color-darkslategray);
+    flex: 1;
+    border-radius: var(--br-3xs);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .schedule-appointment-btn2:hover {
+    background-color: var(--color-teal);
+  }
+  .appointments-text,
+  .frame-without-info {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .frame-without-info {
+    width: 543px;
+    flex-direction: row;
+    padding: 0 var(--padding-9xs);
+    box-sizing: border-box;
+  }
+  .appointments-text {
+    width: 920px;
+    flex-direction: column;
+    gap: 141px 0;
+  }
+  .inner-frame1,
+  .medicare-appointment-schedul {
+    display: flex;
+    justify-content: flex-start;
+    box-sizing: border-box;
+  }
+  .inner-frame1 {
+    width: 1058px;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0 var(--padding-xl);
+    max-width: 100%;
+    text-align: left;
+    font-size: var(--font-size-13xl);
+    color: var(--color-darkslategray);
+    font-family: var(--font-montserrat);
+  }
+  .medicare-appointment-schedul {
+    width: 100%;
+    position: relative;
+    background-color: var(--color-honeydew);
+    overflow: hidden;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 0 402px;
+    gap: 102px 0;
+    letter-spacing: normal;
+  }
+  @media screen and (max-width: 1275px) {
+    .appointment-frame {
+      flex-wrap: wrap;
+      gap: 0 154px;
+      padding-left: var(--padding-48xl);
+      padding-right: var(--padding-48xl);
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 1100px) {
+    .appointments-text {
+      gap: 141px 0;
+    }
+  }
+  @media screen and (max-width: 750px) {
+    .medicare8 {
+      font-size: var(--font-size-19xl);
+    }
+    .contact-us-frame1 {
+      display: none;
+      gap: 0 36px;
+    }
+    .appointment-frame {
+      gap: 0 154px;
+      padding-left: var(--padding-14xl);
+      padding-right: var(--padding-14xl);
+      box-sizing: border-box;
+    }
+    .appointments10 {
+      font-size: var(--font-size-7xl);
+    }
+    .medicare-appointment-schedul {
+      gap: 102px 0;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .medicare8 {
+      font-size: var(--font-size-10xl);
+    }
+    .logo-frame1 {
+      flex-wrap: wrap;
+    }
+    .appointment-frame {
+      gap: 0 154px;
+    }
+    .appointments10,
+    .your-appointment-has {
+      font-size: var(--font-size-lgi);
+    }
+    .thank-you-text {
+      gap: 31px 0;
+    }
+    .return-to-home {
+      font-size: var(--font-size-lgi);
+    }
+    .appointments-text {
+      gap: 141px 0;
+    }
+    .medicare-appointment-schedul {
+      gap: 102px 0;
+    }
+  }

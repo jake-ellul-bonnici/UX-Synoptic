@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./medicare-general-services-phone.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="medicare-general-services-ph">
+      <header class="frame-a2">
+        <div class="navigation-bar3"></div>
+        <div class="title-frame">
+          <img
+            class="medicare-logo-icon3"
+            loading="eager"
+            alt=""
+            src="./public/medicare-logo3@2x.png"
+            id="medicareLogoIcon"
+          />
+        </div>
+        <div class="contact-u-s-frame">
+          <div class="medicare3" id="mEDICAREText">MEDICARE</div>
+        </div>
+        <div class="frame-b">
+          <div class="about-us3" id="aBOUTUSText">ABOUT US</div>
+        </div>
+        <div class="frame-b1">
+          <div class="services3" id="sERVICESText">SERVICES</div>
+        </div>
+        <div class="frame-d">
+          <div class="appointments5" id="aPPOINTMENTSText">APPOINTMENTS</div>
+        </div>
+        <div class="top-card-surgery-frame">
+          <div class="contact-us4" id="cONTACTUSText">CONTACT US</div>
+        </div>
+      </header>
+      <section class="patient-support-programs-frame">
+        <div class="counselling-services-frame">
+          <div class="health-education-wellness-fram">
+            <div class="top-card-surgery">
+              <div class="patient-support-programs">
+                Patient Support Programs
+              </div>
+            </div>
+            <div class="top-card-surgery1">
+              <div class="counselling-services">Counselling Services</div>
+            </div>
+          </div>
+          <div class="surgery-frame">
+            <div class="patient-support-programs-couns">
+              <div class="top-card-surgery2">
+                <div class="health-education">Health Education</div>
+              </div>
+              <div class="top-card-surgery3">
+                <div class="wellness-programs">Wellness Programs</div>
+              </div>
+            </div>
+            <input
+              class="top-card-surgery4"
+              placeholder="Community Outreach"
+              type="text"
+            />
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script>
+      var medicareLogoIcon = document.getElementById("medicareLogoIcon");
+      if (medicareLogoIcon) {
+        medicareLogoIcon.addEventListener("click", function (e) {
+          window.location.href = "./medicare-phone-home.html";
+        });
+      }
+      
+      var mEDICAREText = document.getElementById("mEDICAREText");
+      if (mEDICAREText) {
+        mEDICAREText.addEventListener("click", function (e) {
+          window.location.href = "./medicare-phone-home.html";
+        });
+      }
+      
+      var aBOUTUSText = document.getElementById("aBOUTUSText");
+      if (aBOUTUSText) {
+        aBOUTUSText.addEventListener("click", function (e) {
+          window.location.href = "./medicare-phone-about-us.html";
+        });
+      }
+      
+      var sERVICESText = document.getElementById("sERVICESText");
+      if (sERVICESText) {
+        sERVICESText.addEventListener("click", function (e) {
+          window.location.href = "./medicare-phone-services.html";
+        });
+      }
+      
+      var aPPOINTMENTSText = document.getElementById("aPPOINTMENTSText");
+      if (aPPOINTMENTSText) {
+        aPPOINTMENTSText.addEventListener("click", function (e) {
+          window.location.href = "./medicare-phone-appointments.html";
+        });
+      }
+      
+      var cONTACTUSText = document.getElementById("cONTACTUSText");
+      if (cONTACTUSText) {
+        cONTACTUSText.addEventListener("click", function (e) {
+          window.location.href = "./medicare-phone-contact-us.html";
+        });

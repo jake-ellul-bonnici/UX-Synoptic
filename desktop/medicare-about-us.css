@@ -1,0 +1,275 @@
+.navigation-bar6 {
+  height: 234px;
+  width: 1440px;
+  position: relative;
+  background-color: var(--color-darkslategray);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  display: none;
+  max-width: 100%;
+}
+.medicare-logo-icon6,
+.medicare6 {
+  position: relative;
+  cursor: pointer;
+  z-index: 1;
+}
+.medicare-logo-icon6 {
+  height: 57px;
+  width: 57px;
+  object-fit: cover;
+}
+.medicare6 {
+  margin: 0;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.logo-frame {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 0 16px;
+  max-width: 100%;
+}
+.about-us5,
+.appointments7,
+.contact-us6,
+.services6 {
+  position: relative;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  z-index: 1;
+}
+.about-us5 {
+  white-space: nowrap;
+}
+.appointments7,
+.contact-us6,
+.services6 {
+  cursor: pointer;
+}
+.contact-us6 {
+  white-space: nowrap;
+}
+.contact-frame {
+  margin: 0;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0 36px;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-montserrat);
+}
+.appointments-frame1,
+.subheader-frame {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.appointments-frame1 {
+  height: 29px;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-7xs) 0 0;
+}
+.subheader-frame {
+  align-self: stretch;
+  background-color: var(--color-darkslategray);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  flex-direction: row;
+  align-items: center;
+  padding: var(--padding-67xl) var(--padding-115xl) var(--padding-72xl);
+  gap: 0 154px;
+  text-align: left;
+  font-size: var(--font-size-29xl);
+  color: var(--color-black);
+  font-family: var(--font-montserrat);
+}
+.about-us6 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.why-med-text {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-11xs);
+}
+.at-medicare-we,
+.medicare-strives-to,
+.regardless-of-age {
+  margin: 0;
+}
+.at-medicare-we-container,
+.why-medicare {
+  position: relative;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.at-medicare-we-container {
+  font-size: var(--font-size-base);
+}
+.why-medicare {
+  margin: 0;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+}
+.why-med-text1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-11xs);
+}
+.accessibility-and-convenience,
+.looking-to-invest,
+.medicare-is-a {
+  margin: 0;
+}
+.medicare-is-a-container,
+.what-kind-of {
+  position: relative;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.medicare-is-a-container {
+  font-size: var(--font-size-base);
+}
+.what-kind-of {
+  margin: 0;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+}
+.why-med-text2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 1px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.medicare-offers-a,
+.the-country-ensuring,
+.we-also-provide {
+  margin: 0;
+}
+.locations,
+.medicare-offers-a-container {
+  position: relative;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.medicare-offers-a-container {
+  font-size: var(--font-size-base);
+}
+.locations {
+  margin: 0;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+}
+.why-med-text3 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-11xs);
+}
+.lone-street- {
+  width: 650px;
+  position: relative;
+  font-size: var(--font-size-base);
+  display: inline-block;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  max-width: 100%;
+}
+.info-frame {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 24px 0;
+  max-width: 100%;
+}
+.location-frame,
+.medicare-about-us {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.location-frame {
+  width: 1212px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-darkslategray);
+  font-family: var(--font-montserrat);
+}
+.medicare-about-us {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-honeydew);
+  overflow: hidden;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 0 238px;
+  gap: 110px 0;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1100px) {
+  .subheader-frame {
+    flex-wrap: wrap;
+    gap: 0 154px;
+    padding-left: var(--padding-48xl);
+    padding-right: var(--padding-48xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .medicare6 {
+    font-size: var(--font-size-19xl);
+  }
+  .contact-frame {
+    display: none;
+    gap: 0 36px;
+  }
+  .subheader-frame {
+    gap: 0 154px;
+    padding-left: var(--padding-14xl);
+    padding-right: var(--padding-14xl);
+    box-sizing: border-box;
+  }
+  .medicare-about-us {
+    gap: 110px 0;
+  }
+}
+@media screen and (max-width: 450px) {
+  .medicare6 {
+    font-size: var(--font-size-10xl);
+  }
+  .logo-frame {
+    flex-wrap: wrap;
+  }
+  .subheader-frame {
+    gap: 0 154px;
+  }
+  .about-us6,
+  .locations,
+  .what-kind-of,
+  .why-medicare {
+    font-size: var(--font-size-lgi);
+  }

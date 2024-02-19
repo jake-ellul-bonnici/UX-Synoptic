@@ -1,0 +1,269 @@
+.navigation-bar6 {
+  height: 135px;
+  width: 430px;
+  position: relative;
+  background-color: var(--color-darkslategray);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  display: none;
+}
+.medicare-logo-icon6 {
+  width: 28px;
+  height: 28px;
+  position: relative;
+  object-fit: cover;
+  cursor: pointer;
+  z-index: 1;
+}
+.text-medicare {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-5xs) 0 0;
+}
+.medicare6 {
+  margin: 0;
+  align-self: stretch;
+  height: 39px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  z-index: 1;
+}
+.text-contact-us {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-7xs) 0 0;
+  font-size: var(--font-size-sm);
+}
+.about-us6 {
+  align-self: stretch;
+  position: relative;
+  line-height: 11px;
+  display: inline-block;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  min-height: 16px;
+  z-index: 2;
+}
+.child-frame-services {
+  width: 59px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) var(--padding-4xs) 0 0;
+  box-sizing: border-box;
+}
+.services7 {
+  align-self: stretch;
+  position: relative;
+  line-height: 11px;
+  display: inline-block;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  min-height: 16px;
+  cursor: pointer;
+  z-index: 2;
+}
+.child-frame-services1 {
+  width: 56px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) var(--padding-4xs) 0 0;
+  box-sizing: border-box;
+}
+.appointments8 {
+  align-self: stretch;
+  position: relative;
+  line-height: 11px;
+  display: inline-block;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  min-height: 17px;
+  cursor: pointer;
+  z-index: 2;
+}
+.frame-what-services {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) var(--padding-6xs) 0 0;
+}
+.contact-us7 {
+  align-self: stretch;
+  position: relative;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  z-index: 1;
+}
+.child-frame-about-us,
+.frame-lone-street {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-lone-street {
+  width: 64px;
+  flex-direction: column;
+  padding: var(--padding-5xs) 0 0;
+  box-sizing: border-box;
+}
+.child-frame-about-us {
+  align-self: stretch;
+  background-color: var(--color-darkslategray);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  flex-direction: row;
+  padding: var(--padding-35xl) var(--padding-base) var(--padding-17xl)
+    var(--padding-3xl);
+  text-align: left;
+  font-size: var(--font-size-3xs);
+  color: var(--color-black);
+  font-family: var(--font-montserrat);
+}
+.about-us7 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.at-medicare-we,
+.medicare-strives-to,
+.regardless-of-age {
+  margin: 0;
+}
+.at-medicare-we-container,
+.why-medicare {
+  position: relative;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.at-medicare-we-container {
+  align-self: stretch;
+  font-size: var(--font-size-xs);
+  line-height: 15px;
+}
+.why-medicare {
+  margin: 0;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+}
+.accessibility-and-convenience,
+.looking-to-invest,
+.medicare-is-a {
+  margin: 0;
+}
+.medicare-is-a-container {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-xs);
+  line-height: 15px;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.text-founded-by-dr-jake {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs) 0 0;
+  gap: 12px 0;
+}
+.what-kind-of {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  padding-right: var(--padding-xs);
+}
+.medicare-offers-a,
+.the-country-ensuring,
+.we-also-provide {
+  margin: 0;
+}
+.medicare-offers-a-container {
+  align-self: stretch;
+  height: 104px;
+  position: relative;
+  font-size: var(--font-size-xs);
+  line-height: 15px;
+  display: inline-block;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.text-various-amount {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-7xs);
+  gap: 12px 0;
+}
+.locations,
+.lone-street- {
+  position: relative;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.locations {
+  margin: 0;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+}
+.lone-street- {
+  align-self: stretch;
+  flex: 1;
+  font-size: var(--font-size-xs);
+  line-height: 15px;
+}
+.text-lone-street-city {
+  width: 273px;
+  height: 55px;
+  flex-direction: column;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  gap: 12px 0;
+}
+.child-frame-parent-about-us,
+.text-lone-street-city,
+.text-why-medicare-about-us {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.text-why-medicare-about-us {
+  flex: 1;
+  flex-direction: column;
+  gap: 18px 0;
+}
+.child-frame-parent-about-us {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-smi);
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-darkslategray);
+  font-family: var(--font-montserrat);
+}
+.medicare-phone-about-us {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-honeydew);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;

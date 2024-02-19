@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <form class="medicare-phone-login">
+      <section class="main-frame">
+        <header class="sub-frame">
+          <div class="navigation-bar8"></div>
+          <img
+            class="medicare-logo-icon8"
+            loading="eager"
+            alt=""
+            src="./public/medicare-logo8@2x.png"
+          />
+
+          <div class="text-frame">
+            <div class="medicare8">MEDICARE</div>
+          </div>
+        </header>
+      </section>
+      <section class="sub-frame1">
+        <div class="text-frame-parent">
+          <div class="text-frame1">
+            <h1 class="log-into-your">LOG INTO YOUR ACCOUNT</h1>
+          </div>
+          <div class="text-frame2">
+            <div class="username">USERNAME</div>
+            <input class="text-frame3" type="text" />
+          </div>
+          <div class="button-frame">
+            <div class="password">PASSWORD</div>
+            <input class="button-frame-child" type="text" />
+          </div>
+        </div>
+      </section>
+      <div class="schedule-appointment-btn-wrapper">
+        <button class="schedule-appointment-btn2" id="scheduleAppointmentBtn">
+          <div class="schedule-appointment-btn-inner"></div>
+          <div class="login">LOGIN</div>
+        </button>
+      </div>
+    </form>
+
+    <script>
+      var scheduleAppointmentBtn = document.getElementById("scheduleAppointmentBtn");
+      if (scheduleAppointmentBtn) {
+        scheduleAppointmentBtn.addEventListener("click", function (e) {
+          window.location.href = "./medicare-phone-home.html";
+        });

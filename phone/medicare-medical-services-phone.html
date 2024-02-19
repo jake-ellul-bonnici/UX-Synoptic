@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./medicare-medical-services-phone.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="medicare-medical-services-ph">
+      <header class="services-frame">
+        <div class="navigation-bar4"></div>
+        <div class="logo-frame2">
+          <img
+            class="medicare-logo-icon4"
+            loading="eager"
+            alt=""
+            src="./public/medicare-logo4@2x.png"
+            id="medicareLogoIcon"
+          />
+        </div>
+        <div class="greeting-text">
+          <div class="medicare4" id="mEDICAREText">MEDICARE</div>
+        </div>
+        <div class="about-us-frame2">
+          <div class="about-us4" id="aBOUTUSText">ABOUT US</div>
+        </div>
+        <div class="about-us-frame3">
+          <div class="services4" id="sERVICESText">SERVICES</div>
+        </div>
+        <div class="emergency-card-frame">
+          <div class="appointments6" id="aPPOINTMENTSText">APPOINTMENTS</div>
+        </div>
+        <div class="surgery-label">
+          <div class="contact-us5" id="cONTACTUSText">CONTACT US</div>
+        </div>
+      </header>
+      <section class="top-card-frame-a">
+        <div class="top-card-e-m-frame">
+          <div class="emergency-card-a">
+            <div class="top-card-emergency-care">
+              <div class="emergency-care">Emergency Care</div>
+            </div>
+            <div class="top-card-emergency-care1">
+              <div class="surgery">Surgery</div>
+            </div>
+          </div>
+          <div class="top-card-s-t-frame">
+            <div class="specialized-treatment-label">
+              <div class="top-card-emergency-care2">
+                <div class="specialized-treatment">Specialized Treatment</div>
+              </div>
+              <div class="top-card-emergency-care3">
+                <div class="diagnostics">Diagnostics</div>
+              </div>
+            </div>
+            <div class="top-card-emergency-care4">
+              <div class="rehabilitation">Rehabilitation</div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script>
+      var medicareLogoIcon = document.getElementById("medicareLogoIcon");
+      if (medicareLogoIcon) {
+        medicareLogoIcon.addEventListener("click", function (e) {
+          window.location.href = "./medicare-phone-home.html";
+        });
+      }
+      
+      var mEDICAREText = document.getElementById("mEDICAREText");
+      if (mEDICAREText) {
+        mEDICAREText.addEventListener("click", function (e) {
+          window.location.href = "./medicare-phone-home.html";
+        });
+      }
+      
+      var aBOUTUSText = document.getElementById("aBOUTUSText");
+      if (aBOUTUSText) {
+        aBOUTUSText.addEventListener("click", function (e) {
+          window.location.href = "./medicare-phone-about-us.html";
+        });
+      }
+      
+      var sERVICESText = document.getElementById("sERVICESText");
+      if (sERVICESText) {
+        sERVICESText.addEventListener("click", function (e) {
+          window.location.href = "./medicare-phone-services.html";
+        });
+      }
+      
+      var aPPOINTMENTSText = document.getElementById("aPPOINTMENTSText");
+      if (aPPOINTMENTSText) {
+        aPPOINTMENTSText.addEventListener("click", function (e) {
+          window.location.href = "./medicare-phone-appointments.html";
+        });
+      }
+      
+      var cONTACTUSText = document.getElementById("cONTACTUSText");
+      if (cONTACTUSText) {
+        cONTACTUSText.addEventListener("click", function (e) {
+          window.location.href = "./medicare-phone-contact-us.html";
+        });

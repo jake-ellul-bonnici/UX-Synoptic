@@ -1,0 +1,220 @@
+.navigation-bar7 {
+  height: 135px;
+  width: 430px;
+  position: relative;
+  background-color: var(--color-darkslategray);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  display: none;
+  max-width: 100%;
+}
+.medicare-logo-icon7 {
+  width: 28px;
+  height: 28px;
+  position: relative;
+  object-fit: cover;
+  z-index: 1;
+}
+.medicare-logo-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-5xs) 0 0;
+}
+.medicare7 {
+  margin: 0;
+  align-self: stretch;
+  height: 39px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  z-index: 1;
+}
+.frame-c {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-7xs) 0 0;
+  font-size: var(--font-size-sm);
+}
+.about-us8 {
+  align-self: stretch;
+  position: relative;
+  line-height: 11px;
+  display: inline-block;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  min-height: 16px;
+  cursor: pointer;
+  z-index: 2;
+}
+.frame-a3 {
+  width: 59px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) var(--padding-4xs) 0 0;
+  box-sizing: border-box;
+}
+.services8 {
+  align-self: stretch;
+  position: relative;
+  line-height: 11px;
+  display: inline-block;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  min-height: 16px;
+  cursor: pointer;
+  z-index: 2;
+}
+.frame-a4 {
+  width: 56px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) var(--padding-4xs) 0 0;
+  box-sizing: border-box;
+}
+.appointments9 {
+  align-self: stretch;
+  position: relative;
+  line-height: 11px;
+  display: inline-block;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  min-height: 17px;
+  cursor: pointer;
+  z-index: 2;
+}
+.appointments-wrapper {
+  flex: 0.9167;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) var(--padding-6xs) 0 0;
+}
+.contact-us8 {
+  align-self: stretch;
+  position: relative;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  z-index: 1;
+}
+.contact-us-container,
+.parent-frame {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.contact-us-container {
+  width: 64px;
+  flex-direction: column;
+  padding: var(--padding-5xs) 0 0;
+}
+.parent-frame {
+  align-self: stretch;
+  background-color: var(--color-darkslategray);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  flex-direction: row;
+  padding: var(--padding-35xl) var(--padding-base) var(--padding-17xl)
+    var(--padding-3xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-3xs);
+  color: var(--color-black);
+  font-family: var(--font-montserrat);
+}
+.care-for-children,
+.the-next-generation {
+  margin-block-start: 0;
+  margin-block-end: 20px;
+}
+.adults {
+  margin: 0;
+}
+.the-next-generation-container {
+  margin: 0;
+  align-self: stretch;
+  height: 212px;
+  position: relative;
+  font-size: inherit;
+  line-height: 47px;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.why-button2 {
+  height: 66px;
+  width: 134px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-darkslategray);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  display: none;
+}
+.why {
+  position: relative;
+  font-size: var(--font-size-21xl);
+  font-family: var(--font-montserrat);
+  color: var(--color-honeydew);
+  text-align: left;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  z-index: 1;
+}
+.why-button-parent {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-sm) var(--padding-3xs) var(--padding-4xs)
+    var(--padding-base);
+  background-color: var(--color-darkslategray);
+  border-radius: var(--br-3xs);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+.why-button-parent:hover {
+  background-color: #4d7d66;
+}
+.the-next-generation-of-care-fo-parent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 69px 0;
+  max-width: 100%;
+}
+.medicare-phone-home,
+.medicare-phone-home-inner {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.medicare-phone-home-inner {
+  width: 413px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 5px;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--color-darkslategray);
+  font-family: var(--font-montserrat);
+}
+.medicare-phone-home {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-honeydew);
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-end;

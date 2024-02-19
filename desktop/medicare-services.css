@@ -1,0 +1,288 @@
+.navigation-bar5 {
+  height: 234px;
+  width: 1440px;
+  position: relative;
+  background-color: var(--color-darkslategray);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  display: none;
+  max-width: 100%;
+}
+.medicare-logo-icon5,
+.medicare5 {
+  position: relative;
+  cursor: pointer;
+  z-index: 1;
+}
+.medicare-logo-icon5 {
+  height: 57px;
+  width: 57px;
+  object-fit: cover;
+}
+.medicare5 {
+  margin: 0;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.sub-frame {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 0 16px;
+  max-width: 100%;
+}
+.about-us4 {
+  white-space: nowrap;
+  cursor: pointer;
+}
+.about-us4,
+.appointments6,
+.contact-us5,
+.services4 {
+  position: relative;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  z-index: 1;
+}
+.appointments6,
+.contact-us5 {
+  cursor: pointer;
+}
+.contact-us5 {
+  white-space: nowrap;
+}
+.services-frame1 {
+  margin: 0;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0 36px;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-montserrat);
+}
+.about-us-frame,
+.medicare-frame {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.about-us-frame {
+  height: 29px;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-7xs) 0 0;
+}
+.medicare-frame {
+  align-self: stretch;
+  background-color: var(--color-darkslategray);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  flex-direction: row;
+  align-items: center;
+  padding: var(--padding-67xl) var(--padding-115xl) var(--padding-72xl);
+  gap: 0 154px;
+  text-align: left;
+  font-size: var(--font-size-29xl);
+  color: var(--color-black);
+  font-family: var(--font-montserrat);
+}
+.services5 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.services-text {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-5xs);
+}
+.why-button {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-darkslategray);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+}
+.medical-services2 {
+  position: relative;
+  font-size: var(--font-size-21xl);
+  font-family: var(--font-montserrat);
+  color: var(--color-honeydew);
+  text-align: left;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  z-index: 1;
+}
+.medical-services1 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-sm) var(--padding-3xs) var(--padding-4xs)
+    var(--padding-base);
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  position: relative;
+  max-width: 100%;
+  white-space: nowrap;
+}
+.why-button1 {
+  height: 66px;
+  width: 334px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-darkslategray);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  display: none;
+  max-width: 100%;
+}
+.general-services2 {
+  position: relative;
+  font-size: var(--font-size-21xl);
+  font-family: var(--font-montserrat);
+  color: var(--color-honeydew);
+  text-align: left;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  z-index: 1;
+}
+.general-services1,
+.parent-frame1 {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.general-services1 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-sm) var(--padding-sm) var(--padding-4xs)
+    var(--padding-base);
+  background-color: var(--color-darkslategray);
+  border-radius: var(--br-3xs);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  white-space: nowrap;
+}
+.general-services1:hover {
+  background-color: var(--color-teal);
+}
+.parent-frame1 {
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.sub-frame-s-e-r-v-i-c-e-s {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 204px 0;
+  max-width: 100%;
+}
+.another-frame,
+.medicare-services {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.another-frame {
+  width: 1018px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 35px 0 0;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-29xl);
+  color: var(--color-darkslategray);
+  font-family: var(--font-montserrat);
+}
+.medicare-services {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-honeydew);
+  overflow: hidden;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 0 361px;
+  gap: 107px 0;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1275px) {
+  .medicare-frame {
+    flex-wrap: wrap;
+    gap: 0 154px;
+    padding-left: var(--padding-48xl);
+    padding-right: var(--padding-48xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .medicare5 {
+    font-size: var(--font-size-19xl);
+  }
+  .services-frame1 {
+    display: none;
+    gap: 0 36px;
+  }
+  .medicare-frame {
+    gap: 0 154px;
+    padding-left: var(--padding-14xl);
+    padding-right: var(--padding-14xl);
+    box-sizing: border-box;
+  }
+  .services5 {
+    font-size: var(--font-size-19xl);
+  }
+  .parent-frame1 {
+    flex-wrap: wrap;
+  }
+  .sub-frame-s-e-r-v-i-c-e-s {
+    gap: 204px 0;
+  }
+  .medicare-services {
+    gap: 107px 0;
+  }
+}
+@media screen and (max-width: 750px) {
+  .medicare5 {
+    font-size: var(--font-size-10xl);
+  }
+  .sub-frame {
+    flex-wrap: wrap;
+  }
+  .medicare-frame {
+    gap: 0 154px;
+  }
+  .services5 {
+    font-size: var(--font-size-10xl);
+  }
+  .medicare-services {
+    gap: 107px 0;
+  }
+}
+@media screen and (max-width: 450px) {
+  .sub-frame-s-e-r-v-i-c-e-s {
+    gap: 204px 0;
+  }

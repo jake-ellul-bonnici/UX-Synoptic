@@ -1,0 +1,265 @@
+.navigation-bar3 {
+  height: 135px;
+  width: 430px;
+  position: relative;
+  background-color: var(--color-darkslategray);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  display: none;
+}
+.medicare-logo-icon3 {
+  width: 28px;
+  height: 28px;
+  position: relative;
+  object-fit: cover;
+  cursor: pointer;
+  z-index: 1;
+}
+.title-frame {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-5xs) 0 0;
+}
+.medicare3 {
+  align-self: stretch;
+  height: 39px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  z-index: 1;
+}
+.contact-u-s-frame {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-7xs) 0 0;
+  font-size: var(--font-size-sm);
+}
+.about-us3 {
+  align-self: stretch;
+  position: relative;
+  line-height: 11px;
+  display: inline-block;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  min-height: 16px;
+  cursor: pointer;
+  z-index: 2;
+}
+.frame-b {
+  width: 59px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) var(--padding-4xs) 0 0;
+  box-sizing: border-box;
+}
+.services3 {
+  align-self: stretch;
+  position: relative;
+  line-height: 11px;
+  display: inline-block;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  min-height: 16px;
+  cursor: pointer;
+  z-index: 2;
+}
+.frame-b1 {
+  width: 56px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) var(--padding-4xs) 0 0;
+  box-sizing: border-box;
+}
+.appointments5 {
+  align-self: stretch;
+  position: relative;
+  line-height: 11px;
+  display: inline-block;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  min-height: 17px;
+  cursor: pointer;
+  z-index: 2;
+}
+.frame-d {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) var(--padding-6xs) 0 0;
+}
+.contact-us4 {
+  align-self: stretch;
+  position: relative;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  z-index: 1;
+}
+.frame-a2,
+.top-card-surgery-frame {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.top-card-surgery-frame {
+  width: 64px;
+  flex-direction: column;
+  padding: var(--padding-5xs) 0 0;
+  box-sizing: border-box;
+}
+.frame-a2 {
+  align-self: stretch;
+  background-color: var(--color-darkslategray);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  flex-direction: row;
+  padding: var(--padding-35xl) var(--padding-base) var(--padding-17xl)
+    var(--padding-3xl);
+  text-align: left;
+  font-size: var(--font-size-3xs);
+  color: var(--color-black);
+  font-family: var(--font-montserrat);
+}
+.patient-support-programs {
+  flex: 1;
+  position: relative;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.top-card-surgery {
+  flex: 1;
+  background-color: var(--color-darkslategray);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-23xl) 3px var(--padding-23xl) var(--padding-5xs);
+  box-sizing: border-box;
+  min-width: 106px;
+}
+.counselling-services {
+  flex: 1;
+  position: relative;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.top-card-surgery1 {
+  flex: 1;
+  background-color: var(--color-darkslategray);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-23xl) var(--padding-4xl) var(--padding-23xl)
+    var(--padding-7xl);
+  box-sizing: border-box;
+  min-width: 106px;
+}
+.health-education-wellness-fram {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0 31px;
+}
+.health-education {
+  position: relative;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.top-card-surgery2 {
+  background-color: var(--color-darkslategray);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-34xl) 0 var(--padding-34xl) var(--padding-11xs);
+}
+.wellness-programs {
+  flex: 1;
+  position: relative;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.top-card-surgery3 {
+  align-self: stretch;
+  background-color: var(--color-darkslategray);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-23xl) 33px var(--padding-23xl) 32px;
+}
+.patient-support-programs-couns {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 20px 0;
+  min-width: 106px;
+}
+.top-card-surgery4 {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  background-color: var(--color-darkslategray);
+  height: 128px;
+  flex: 1;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-23xl) var(--padding-base);
+  box-sizing: border-box;
+  font-family: var(--font-montserrat);
+  font-size: var(--font-size-xl);
+  color: var(--color-honeydew);
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  min-width: 106px;
+}
+.surgery-frame {
+  align-self: stretch;
+  flex-direction: row;
+  gap: 0 31px;
+}
+.counselling-services-frame,
+.patient-support-programs-frame,
+.surgery-frame {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.counselling-services-frame {
+  flex: 1;
+  flex-direction: column;
+  gap: 20px 0;
+}
+.patient-support-programs-frame {
+  width: 404px;
+  flex-direction: row;
+  padding: 0 var(--padding-xl) 0 27px;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-honeydew);
+  font-family: var(--font-montserrat);
+}
+.medicare-general-services-ph {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-honeydew);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;

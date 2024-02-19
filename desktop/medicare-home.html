@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./medicare-home.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="medicare-home">
+      <section class="navigation-bar-group">
+        <div class="navigation-bar7"></div>
+        <div class="medicare-logo-container">
+          <img
+            class="medicare-logo-icon7"
+            loading="eager"
+            alt=""
+            src="./public/medicare-logo7@2x.png"
+          />
+
+          <h1 class="medicare7">MEDICARE</h1>
+        </div>
+        <div class="frame-wrapper1">
+          <nav class="about-us-group">
+            <div class="about-us7" id="aBOUTUSText">ABOUT US</div>
+            <div class="services7" id="sERVICESText">SERVICES</div>
+            <div class="appointments8" id="aPPOINTMENTSText">APPOINTMENTS</div>
+            <div class="contact-us7" id="cONTACTUSText">CONTACT US</div>
+          </nav>
+        </div>
+      </section>
+      <div class="medicare-home-inner">
+        <div class="the-next-generation-of-care-fo-parent">
+          <h1 class="the-next-generation-container">
+            <p class="the-next-generation">The next generation of</p>
+            <p class="care-for-children">care for children and</p>
+            <p class="adults">adults</p>
+          </h1>
+          <div class="frame-wrapper2">
+            <button class="why-button-parent" id="groupButton">
+              <div class="why-button2"></div>
+              <div class="why">Why?</div>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var aBOUTUSText = document.getElementById("aBOUTUSText");
+      if (aBOUTUSText) {
+        aBOUTUSText.addEventListener("click", function (e) {
+          window.location.href = "./medicare-about-us.html";
+        });
+      }
+      
+      var sERVICESText = document.getElementById("sERVICESText");
+      if (sERVICESText) {
+        sERVICESText.addEventListener("click", function (e) {
+          window.location.href = "./medicare-services.html";
+        });
+      }
+      
+      var aPPOINTMENTSText = document.getElementById("aPPOINTMENTSText");
+      if (aPPOINTMENTSText) {
+        aPPOINTMENTSText.addEventListener("click", function (e) {
+          window.location.href = "./medicare-appointments.html";
+        });
+      }
+      
+      var cONTACTUSText = document.getElementById("cONTACTUSText");
+      if (cONTACTUSText) {
+        cONTACTUSText.addEventListener("click", function (e) {
+          window.location.href = "./medicare-contact-us.html";
+        });
+      }
+      
+      var groupButton = document.getElementById("groupButton");
+      if (groupButton) {
+        groupButton.addEventListener("click", function (e) {
+          window.location.href = "./medicare-about-us.html";
+        });

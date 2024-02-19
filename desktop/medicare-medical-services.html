@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./medicare-medical-services.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="medicare-medical-services">
+      <section class="main-frame1">
+        <div class="navigation-bar4"></div>
+        <div class="inner-frame">
+          <img
+            class="medicare-logo-icon4"
+            loading="eager"
+            alt=""
+            src="./public/medicare-logo4@2x.png"
+            id="medicareLogoImage"
+          />
+
+          <h1 class="medicare4" id="mEDICAREText">MEDICARE</h1>
+        </div>
+        <div class="frame-with-info">
+          <nav class="appointments-frame">
+            <div class="about-us3" id="aBOUTUSText">ABOUT US</div>
+            <div class="services3" id="sERVICESText">SERVICES</div>
+            <div class="appointments5" id="aPPOINTMENTSText">APPOINTMENTS</div>
+            <div class="contact-us4" id="cONTACTUSText">CONTACT US</div>
+          </nav>
+        </div>
+      </section>
+      <div class="top-card-frame">
+        <div class="medical-services">
+          <textarea
+            class="top-card-emergency-care"
+            placeholder="Emergency Care"
+            rows="{12}"
+            cols="{13}"
+          >
+          </textarea>
+          <textarea
+            class="top-card-emergency-care1"
+            placeholder="Surgery"
+            rows="{12}"
+            cols="{13}"
+          >
+          </textarea>
+          <textarea
+            class="top-card-emergency-care2"
+            placeholder="Specialized Treatment"
+            rows="{12}"
+            cols="{13}"
+          >
+          </textarea>
+          <textarea
+            class="top-card-emergency-care3"
+            placeholder="Rehabilitation"
+            rows="{12}"
+            cols="{13}"
+          >
+          </textarea>
+          <textarea
+            class="top-card-emergency-care4"
+            placeholder="Diagnostics"
+            rows="{12}"
+            cols="{13}"
+          >
+          </textarea>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var medicareLogoImage = document.getElementById("medicareLogoImage");
+      if (medicareLogoImage) {
+        medicareLogoImage.addEventListener("click", function (e) {
+          window.location.href = "./medicare-home.html";
+        });
+      }
+      
+      var mEDICAREText = document.getElementById("mEDICAREText");
+      if (mEDICAREText) {
+        mEDICAREText.addEventListener("click", function (e) {
+          window.location.href = "./medicare-home.html";
+        });
+      }
+      
+      var aBOUTUSText = document.getElementById("aBOUTUSText");
+      if (aBOUTUSText) {
+        aBOUTUSText.addEventListener("click", function (e) {
+          window.location.href = "./medicare-about-us.html";
+        });
+      }
+      
+      var sERVICESText = document.getElementById("sERVICESText");
+      if (sERVICESText) {
+        sERVICESText.addEventListener("click", function (e) {
+          window.location.href = "./medicare-services.html";
+        });
+      }
+      
+      var aPPOINTMENTSText = document.getElementById("aPPOINTMENTSText");
+      if (aPPOINTMENTSText) {
+        aPPOINTMENTSText.addEventListener("click", function (e) {
+          window.location.href = "./medicare-appointments.html";
+        });
+      }
+      
+      var cONTACTUSText = document.getElementById("cONTACTUSText");
+      if (cONTACTUSText) {
+        cONTACTUSText.addEventListener("click", function (e) {
+          window.location.href = "./medicare-contact-us.html";
+        });

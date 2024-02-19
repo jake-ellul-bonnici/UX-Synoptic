@@ -1,0 +1,201 @@
+.navigation-bar3 {
+  height: 234px;
+  width: 1440px;
+  position: relative;
+  background-color: var(--color-darkslategray);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  display: none;
+  max-width: 100%;
+}
+.medicare-logo-icon3,
+.medicare3 {
+  position: relative;
+  cursor: pointer;
+  z-index: 1;
+}
+.medicare-logo-icon3 {
+  height: 57px;
+  width: 57px;
+  object-fit: cover;
+}
+.medicare3 {
+  margin: 0;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.frame-child1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 0 16px;
+  max-width: 100%;
+}
+.about-us2 {
+  white-space: nowrap;
+}
+.about-us2,
+.appointments4,
+.contact-us3,
+.services2 {
+  position: relative;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  z-index: 1;
+}
+.contact-us3 {
+  white-space: nowrap;
+}
+.frame-about-us,
+.frame-appointments {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-appointments {
+  margin: 0;
+  flex: 1;
+  flex-direction: row;
+  gap: 0 36px;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-montserrat);
+}
+.frame-about-us {
+  height: 29px;
+  flex-direction: column;
+  padding: var(--padding-7xs) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.frame-parent1,
+.top-card-surgery,
+.top-card-surgery1,
+.top-card-surgery2,
+.top-card-surgery3,
+.top-card-surgery4 {
+  background-color: var(--color-darkslategray);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  box-sizing: border-box;
+  font-family: var(--font-montserrat);
+}
+.frame-parent1 {
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: var(--padding-67xl) var(--padding-115xl) var(--padding-72xl);
+  gap: 0 154px;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-29xl);
+  color: var(--color-black);
+}
+.top-card-surgery,
+.top-card-surgery1,
+.top-card-surgery2,
+.top-card-surgery3,
+.top-card-surgery4 {
+  border: 0;
+  height: 234px;
+  width: 254px;
+  outline: 0;
+  justify-content: center;
+  padding: var(--padding-87xl) var(--padding-5xs);
+  font-size: var(--font-size-xl);
+  color: var(--color-honeydew);
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.top-card-surgery1,
+.top-card-surgery2,
+.top-card-surgery3,
+.top-card-surgery4 {
+  padding: var(--padding-87xl) 32px;
+}
+.top-card-surgery2,
+.top-card-surgery3,
+.top-card-surgery4 {
+  padding: var(--padding-87xl) 47px;
+}
+.top-card-surgery3,
+.top-card-surgery4 {
+  padding: var(--padding-87xl) 26px;
+}
+.top-card-surgery4 {
+  padding: var(--padding-87xl) 39px;
+}
+.general-frame,
+.general-services,
+.medicare-general-services {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.general-services {
+  width: 254px;
+  padding: 0 0 239px;
+  box-sizing: border-box;
+  gap: 0 34px;
+}
+.general-frame,
+.medicare-general-services {
+  padding: 0 18px;
+}
+.medicare-general-services {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-honeydew);
+  overflow: hidden;
+  flex-direction: column;
+  padding: 0 0 119px;
+  box-sizing: border-box;
+  gap: 198px 0;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1100px) {
+  .frame-parent1 {
+    flex-wrap: wrap;
+    gap: 0 154px;
+    padding-left: var(--padding-48xl);
+    padding-right: var(--padding-48xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .medicare3 {
+    font-size: var(--font-size-19xl);
+  }
+  .frame-appointments {
+    display: none;
+    gap: 0 36px;
+  }
+  .frame-parent1 {
+    gap: 0 154px;
+    padding-left: var(--padding-14xl);
+    padding-right: var(--padding-14xl);
+    box-sizing: border-box;
+  }
+  .general-services {
+    gap: 0 34px;
+    padding-bottom: 155px;
+    box-sizing: border-box;
+  }
+  .medicare-general-services {
+    gap: 198px 0;
+  }
+}
+@media screen and (max-width: 450px) {
+  .medicare3 {
+    font-size: var(--font-size-10xl);
+  }
+  .frame-child1 {
+    flex-wrap: wrap;
+  }
+  .frame-parent1 {
+    gap: 0 154px;
+  }

@@ -1,0 +1,181 @@
+.navigation-bar1 {
+  height: 135px;
+  width: 430px;
+  position: relative;
+  background-color: var(--color-darkslategray);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  display: none;
+}
+.medicare-logo-icon1 {
+  width: 28px;
+  height: 28px;
+  position: relative;
+  object-fit: cover;
+  cursor: pointer;
+  z-index: 1;
+}
+.logo-frame1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-5xs) 0 0;
+}
+.medicare1 {
+  margin: 0;
+  align-self: stretch;
+  height: 39px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  z-index: 1;
+}
+.appointments-label {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-7xs) 0 0;
+  font-size: var(--font-size-sm);
+}
+.about-us1 {
+  align-self: stretch;
+  position: relative;
+  line-height: 11px;
+  display: inline-block;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  min-height: 16px;
+  cursor: pointer;
+  z-index: 2;
+}
+.about-us-frame {
+  width: 59px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) var(--padding-4xs) 0 0;
+  box-sizing: border-box;
+}
+.services1 {
+  align-self: stretch;
+  position: relative;
+  line-height: 11px;
+  display: inline-block;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  min-height: 16px;
+  cursor: pointer;
+  z-index: 2;
+}
+.about-us-frame1 {
+  width: 56px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) var(--padding-4xs) 0 0;
+  box-sizing: border-box;
+}
+.appointments2 {
+  align-self: stretch;
+  position: relative;
+  line-height: 11px;
+  display: inline-block;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  min-height: 17px;
+  cursor: pointer;
+  z-index: 2;
+}
+.contact-info-frame {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) var(--padding-6xs) 0 0;
+}
+.contact-us1 {
+  align-self: stretch;
+  position: relative;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  z-index: 1;
+}
+.contact-us-wrapper,
+.header-frame {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.contact-us-wrapper {
+  width: 64px;
+  flex-direction: column;
+  padding: var(--padding-5xs) 0 0;
+  box-sizing: border-box;
+}
+.header-frame {
+  align-self: stretch;
+  background-color: var(--color-darkslategray);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  flex-direction: row;
+  padding: var(--padding-35xl) var(--padding-base) var(--padding-17xl)
+    var(--padding-3xl);
+  text-align: left;
+  font-size: var(--font-size-3xs);
+  color: var(--color-black);
+  font-family: var(--font-montserrat);
+}
+.contact-us2,
+.to-contact-medicare {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.contact-us2 {
+  width: 173px;
+  box-sizing: border-box;
+  padding-right: var(--padding-xl);
+}
+.to-contact-medicare {
+  align-self: stretch;
+  height: 104px;
+  line-height: 27px;
+}
+.contact-us-child-frame,
+.sub-header-frame {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.contact-us-child-frame {
+  flex: 1;
+  flex-direction: column;
+  gap: 30px 0;
+}
+.sub-header-frame {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-xl);
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-darkslategray);
+  font-family: var(--font-montserrat);
+}
+.medicare-phone-contact-us {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-honeydew);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;

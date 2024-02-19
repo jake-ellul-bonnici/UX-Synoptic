@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="medicare-appointment-schedul">
+      <section class="appointment-frame">
+        <div class="navigation-bar8"></div>
+        <div class="logo-frame1">
+          <img
+            class="medicare-logo-icon8"
+            loading="eager"
+            alt=""
+            src="./public/medicare-logo8@2x.png"
+            id="medicareLogoImage"
+          />
+
+          <h1 class="medicare8" id="mEDICAREText">MEDICARE</h1>
+        </div>
+        <div class="about-us-frame1">
+          <nav class="contact-us-frame1">
+            <div class="about-us8" id="aBOUTUSText">ABOUT US</div>
+            <div class="services8" id="sERVICESText">SERVICES</div>
+            <div class="appointments9" id="aPPOINTMENTSText">APPOINTMENTS</div>
+            <div class="contact-us8" id="cONTACTUSText">CONTACT US</div>
+          </nav>
+        </div>
+      </section>
+      <section class="inner-frame1">
+        <div class="appointments-text">
+          <div class="thank-you-text">
+            <h2 class="appointments10">APPOINTMENTS</h2>
+            <div class="your-appointment-has">
+              Your appointment has been scheduled. Thank you for scheduling an
+              appointment.
+            </div>
+          </div>
+          <div class="frame-without-info">
+            <button
+              class="schedule-appointment-btn2"
+              id="scheduleAppointmentBtn"
+            >
+              <div class="schedule-appointment-btn-inner"></div>
+              <div class="return-to-home">RETURN TO HOME</div>
+            </button>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script>
+      var medicareLogoImage = document.getElementById("medicareLogoImage");
+      if (medicareLogoImage) {
+        medicareLogoImage.addEventListener("click", function (e) {
+          window.location.href = "./medicare-home.html";
+        });
+      }
+      
+      var mEDICAREText = document.getElementById("mEDICAREText");
+      if (mEDICAREText) {
+        mEDICAREText.addEventListener("click", function (e) {
+          window.location.href = "./medicare-home.html";
+        });
+      }
+      
+      var aBOUTUSText = document.getElementById("aBOUTUSText");
+      if (aBOUTUSText) {
+        aBOUTUSText.addEventListener("click", function (e) {
+          window.location.href = "./medicare-about-us.html";
+        });
+      }
+      
+      var sERVICESText = document.getElementById("sERVICESText");
+      if (sERVICESText) {
+        sERVICESText.addEventListener("click", function (e) {
+          window.location.href = "./medicare-services.html";
+        });
+      }
+      
+      var aPPOINTMENTSText = document.getElementById("aPPOINTMENTSText");
+      if (aPPOINTMENTSText) {
+        aPPOINTMENTSText.addEventListener("click", function (e) {
+          window.location.href = "./medicare-appointments.html";
+        });
+      }
+      
+      var cONTACTUSText = document.getElementById("cONTACTUSText");
+      if (cONTACTUSText) {
+        cONTACTUSText.addEventListener("click", function (e) {
+          window.location.href = "./medicare-contact-us.html";
+        });
+      }
+      
+      var scheduleAppointmentBtn = document.getElementById("scheduleAppointmentBtn");
+      if (scheduleAppointmentBtn) {
+        scheduleAppointmentBtn.addEventListener("click", function (e) {
+          window.location.href = "./medicare-home.html";
+        });
+      }
+      </script>
+  </body>
+</html>

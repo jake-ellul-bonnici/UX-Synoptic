@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./medicare-about-us.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="medicare-about-us">
+      <section class="subheader-frame">
+        <div class="navigation-bar6"></div>
+        <div class="logo-frame">
+          <img
+            class="medicare-logo-icon6"
+            loading="eager"
+            alt=""
+            src="./public/medicare-logo6@2x.png"
+            id="medicareLogoImage"
+          />
+
+          <h1 class="medicare6" id="mEDICAREText">MEDICARE</h1>
+        </div>
+        <div class="appointments-frame1">
+          <nav class="contact-frame">
+            <div class="about-us5">ABOUT US</div>
+            <div class="services6" id="sERVICESText">SERVICES</div>
+            <div class="appointments7" id="aPPOINTMENTSText">APPOINTMENTS</div>
+            <div class="contact-us6" id="cONTACTUSText">CONTACT US</div>
+          </nav>
+        </div>
+      </section>
+      <section class="location-frame">
+        <div class="info-frame">
+          <div class="why-med-text">
+            <h3 class="about-us6">ABOUT US</h3>
+          </div>
+          <div class="at-medicare-we-container">
+            <p class="at-medicare-we">
+              At Medicare, we prize the health and longevity of our patients
+              beyond anything else. We believe in providing a reliable service
+              for all who need it
+            </p>
+            <p class="regardless-of-age">
+              regardless of age or condition. Supplying various procedures with
+              the most technologically advanced and secure equipment possible is
+              what
+            </p>
+            <p class="medicare-strives-to">Medicare strives to do.</p>
+          </div>
+          <div class="why-med-text1">
+            <h3 class="why-medicare">WHY MEDICARE?</h3>
+          </div>
+          <div class="medicare-is-a-container">
+            <p class="medicare-is-a">
+              Medicare is a company found by Dr. Jake, a surgeon whose mission
+              is to give the global public more affordable healthcare with a
+              vast increase in
+            </p>
+            <p class="accessibility-and-convenience">
+              accessibility and convenience. Medicare serves as an outlet to
+              further amplify that goal and become another safe and secure
+              choice for those
+            </p>
+            <p class="looking-to-invest">
+              looking to invest into their health and into their future.
+            </p>
+          </div>
+          <div class="why-med-text2">
+            <h3 class="what-kind-of">
+              WHAT KIND OF SERVICES DOES MEDICARE PROVIDE?
+            </h3>
+          </div>
+          <div class="medicare-offers-a-container">
+            <p class="medicare-offers-a">
+              Medicare offers a various amount of services to their clients,
+              such as essential services, including rehabilitation,
+              physiological, surgical, and more.
+            </p>
+            <p class="we-also-provide">
+              We also provide other general services, such as counselling,
+              exercise regimes, and community outreach. Medicare has several
+              clinics spread across
+            </p>
+            <p class="the-country-ensuring">
+              the country, ensuring that our services are always easily
+              accessible, especially when needed most.
+            </p>
+          </div>
+          <div class="why-med-text3">
+            <h3 class="locations">LOCATIONS:</h3>
+          </div>
+          <div class="lone-street-">
+            Lone Street - City 1, Werewolf Street - City 2, Noob Street - City
+            3, Pwner Street - City 4
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script>
+      var medicareLogoImage = document.getElementById("medicareLogoImage");
+      if (medicareLogoImage) {
+        medicareLogoImage.addEventListener("click", function (e) {
+          window.location.href = "./medicare-home.html";
+        });
+      }
+      
+      var mEDICAREText = document.getElementById("mEDICAREText");
+      if (mEDICAREText) {
+        mEDICAREText.addEventListener("click", function (e) {
+          window.location.href = "./medicare-home.html";
+        });
+      }
+      
+      var sERVICESText = document.getElementById("sERVICESText");
+      if (sERVICESText) {
+        sERVICESText.addEventListener("click", function (e) {
+          window.location.href = "./medicare-services.html";
+        });
+      }
+      
+      var aPPOINTMENTSText = document.getElementById("aPPOINTMENTSText");
+      if (aPPOINTMENTSText) {
+        aPPOINTMENTSText.addEventListener("click", function (e) {
+          window.location.href = "./medicare-appointments.html";
+        });
+      }
+      
+      var cONTACTUSText = document.getElementById("cONTACTUSText");
+      if (cONTACTUSText) {
+        cONTACTUSText.addEventListener("click", function (e) {
+          window.location.href = "./medicare-contact-us.html";
+        });

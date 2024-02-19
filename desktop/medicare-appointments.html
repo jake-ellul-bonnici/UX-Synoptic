@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./medicare-appointments.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="medicare-appointments">
+      <section class="navigation-bar-parent">
+        <div class="navigation-bar2"></div>
+        <div class="medicare-logo-group">
+          <img
+            class="medicare-logo-icon2"
+            loading="eager"
+            alt=""
+            src="./public/medicare-logo2@2x.png"
+            id="medicareLogoImage"
+          />
+
+          <h1 class="medicare2" id="mEDICAREText">MEDICARE</h1>
+        </div>
+        <div class="frame-wrapper">
+          <nav class="about-us-parent">
+            <div class="about-us1" id="aBOUTUSText">ABOUT US</div>
+            <div class="services1" id="sERVICESText">SERVICES</div>
+            <div class="appointments1">APPOINTMENTS</div>
+            <div class="contact-us2" id="cONTACTUSText">CONTACT US</div>
+          </nav>
+        </div>
+      </section>
+      <footer class="medicare-appointments-inner">
+        <div class="frame-parent">
+          <div class="appointments-parent">
+            <h1 class="appointments2">APPOINTMENTS</h1>
+            <h1 class="appointments3">APPOINTMENTS</h1>
+          </div>
+          <div class="button-frame1">
+            <div class="frame-group">
+              <div class="frame-container">
+                <div class="first-name-parent">
+                  <div class="first-name">FIRST NAME</div>
+                  <input class="frame-child" type="text" />
+                </div>
+                <div class="email-parent">
+                  <div class="email">EMAIL</div>
+                  <input class="frame-item" type="text" />
+                </div>
+              </div>
+              <div class="frame-div">
+                <div class="last-name-parent">
+                  <div class="last-name">LAST NAME</div>
+                  <input class="frame-inner" type="text" />
+                </div>
+                <div class="time-parent">
+                  <div class="time">TIME</div>
+                  <input class="frame-input" type="text" />
+                </div>
+              </div>
+            </div>
+            <div class="schedule-button">
+              <button
+                class="schedule-appointment-btn1"
+                id="scheduleAppointmentBtn"
+              >
+                <div class="schedule-appointment-btn-item"></div>
+                <div class="schedule-appointment">SCHEDULE APPOINTMENT</div>
+              </button>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script>
+      var medicareLogoImage = document.getElementById("medicareLogoImage");
+      if (medicareLogoImage) {
+        medicareLogoImage.addEventListener("click", function (e) {
+          window.location.href = "./medicare-home.html";
+        });
+      }
+      
+      var mEDICAREText = document.getElementById("mEDICAREText");
+      if (mEDICAREText) {
+        mEDICAREText.addEventListener("click", function (e) {
+          window.location.href = "./medicare-home.html";
+        });
+      }
+      
+      var aBOUTUSText = document.getElementById("aBOUTUSText");
+      if (aBOUTUSText) {
+        aBOUTUSText.addEventListener("click", function (e) {
+          window.location.href = "./medicare-about-us.html";
+        });
+      }
+      
+      var sERVICESText = document.getElementById("sERVICESText");
+      if (sERVICESText) {
+        sERVICESText.addEventListener("click", function (e) {
+          window.location.href = "./medicare-services.html";
+        });
+      }
+      
+      var cONTACTUSText = document.getElementById("cONTACTUSText");
+      if (cONTACTUSText) {
+        cONTACTUSText.addEventListener("click", function (e) {
+          window.location.href = "./medicare-contact-us.html";
+        });
+      }
+      
+      var scheduleAppointmentBtn = document.getElementById("scheduleAppointmentBtn");
+      if (scheduleAppointmentBtn) {
+        scheduleAppointmentBtn.addEventListener("click", function (e) {
+          window.location.href = "./medicare-appointment-schedul.html";
+        });
